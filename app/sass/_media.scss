@@ -1,0 +1,102 @@
+@media only screen and ( max-width: 1820px) {
+  .adv{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1380px) {
+
+}
+
+@media only screen and ( max-width: 1200px){
+
+}
+@media only screen and ( max-width: 1150px){
+  .wheel{
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-link{
+    padding: 0 15px;
+    width: auto;
+    &:before{
+      display: none;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+  .header-link{
+    display: block;
+  }
+  .header .current{
+    span{
+      color: #000;
+    }
+    &:after{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wheel-selects, .calculation-wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+  .wheel-title{
+    text-align: center;
+  }
+  .calculation-block:first-child .calculation-item:last-child{
+    margin-bottom: 0;
+  }
+  .wheel-item:first-child {
+    padding: 25px;
+  }
+  .wheel-table thead th, .wheel-table tbody td, .wheel-table tbody td:first-child, .wheel-table thead th:first-child{
+    padding: 10px;
+  }
+  .wheel-select{
+    margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .header-menu{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .wheel-img, .wheel-img img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .wheel-scroll__column p {
+    padding: 15px 0 15px 10px;
+    width: 130px;
+  }
+  .wheel-scroll__item td {
+    padding: 15px 10px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .wheel-select__item{
+    width: 250px;
+  }
+  .calculation-item{
+    justify-content: center;
+  }
+  .calculation-name{
+    width: 100px;
+  }
+  .calculation button{
+    padding: 12px 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+
+}

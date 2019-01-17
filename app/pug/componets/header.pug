@@ -1,0 +1,22 @@
+include ../mixin/mixin
+header.header
+    .header-wrapper
+        .container
+            nav
+                .header-menu
+                    .header-logo
+                        a(href="index.html") Шинный онлайн
+                            p  калькулятор
+                    ul.header-tabs
+                        li.header-link(data-tab="tab-1")
+                            .header-link__item
+                                img(src='img/icon1.png' alt='icon')
+                                span Подбор шин
+                        li.header-link.current(data-tab="tab-2")
+                            .header-link__item
+                                img(src='img/icon2.png' alt='icon')
+                                span Подбор дисков
+                        li.header-link(data-tab="tab-3")
+                            .header-link__item
+                                img(src='img/icon3.png' alt='icon')
+                                span Разборные колеса

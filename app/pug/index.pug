@@ -1,0 +1,249 @@
+doctype html
+html(lang=En)
+    head
+        title головна
+        include componets/head
+    body
+        .wrapper
+            include componets/header
+            main
+                .wrapper
+                    .adv
+                        .adv-item
+                            a(href="#")
+                                img(src='img/Layer.jpg')
+                        .adv-item
+                            a(href="#")
+                                img(src='img/Layer.jpg')
+                    .container
+                        .tabs
+                            .tab-content#tab-1
+                                p Lorem ipsum am, quis nostrud exercitation ullamco
+                            .tab-content.current#tab-2
+                                .wheel
+                                    .wheel-item
+                                        .wheel-selects
+                                            .wheel-select
+                                                .wheel-title
+                                                    p Brand of your car
+                                                .wheel-select__wrap
+                                                    select.wheel-select__item#select1(name="select1")
+                                                        option(value="Mercedes" selected="") Mercedes
+                                                        option(value="Bmw") Bmw
+                                                        option(value="Audi") Audi
+                                            .wheel-select
+                                                .wheel-title
+                                                    p Model of your car
+                                                .wheel-select__wrap
+                                                    select.wheel-select__item#select2(name="select2" style={display:inline})
+                                                        option(value=21) A
+                                                        option(value=22) B
+                                                        option(value=23) C
+                                                        option(value=24) E
+                                                .wheel-select__wrap
+                                                    select.wheel-select__item#select3(name="select3")
+                                                        option(value=31) X1
+                                                        option(value=32) X3
+                                                        option(value=33) X5
+                                                        option(value=34) X6
+                                                .wheel-select__wrap
+                                                    select.wheel-select__item#select4(name="select4")
+                                                        option(value=41) Q3
+                                                        option(value=42) Q5
+                                                        option(value=43) Q7
+                                        .calculation
+                                            .wheel-title
+                                                p Wheel Details (3-piece wheel / split rim)
+                                            .calculation-wrap
+                                                .calculation-block
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p Original OUTER lip width (in.)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a1(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p Original INNER barrel width (in.)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a2(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p Original INNER barrel width (in.)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a3(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p Original wheel offset (mm)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a4(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                .calculation-block
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p New OUTER lip width (in.)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a5(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p New INNER barrel width (in.)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a6(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                    .calculation-item
+                                                        .calculation-name
+                                                            p Spacers (mm)
+                                                        .calculation-counter
+                                                            a.calculation-minus
+                                                            input#a7(type="text" value="0" size="4")
+                                                            a.calculation-plus
+                                                    .calculation-item
+                                                        .calculation-calc
+                                                            button Calculate
+                                                        .calculation-reset
+                                                            button Reset
+                                        .wheel-tables
+                                            table.wheel-table
+                                                thead
+                                                    tr
+                                                        th Details
+                                                        th Original
+                                                        th New
+                                                tbody
+                                                    tr
+                                                        td Wheel Width (in.)
+                                                        td 586
+                                                        td 586
+                                                    tr
+                                                        td Wheel Offset (mm)
+                                                        td 205
+                                                        td 205
+                                                    tr
+                                                        td Overall Offset (mm)
+                                                        td 1841
+                                                        td 1841
+                                                    tr
+                                                        td Arch clearance (mm)
+                                                        td 103
+                                                        td 103
+                                                    tr
+                                                        td Strut clearance (mm)
+                                                        td 543
+                                                        td 543
+                                        .wheel-scroll__wrap
+                                            .wheel-title
+                                                p Equivalent Arch Clearance (103J et-350.9)
+                                            .wheel-scroll
+                                                .wheel-scroll__table
+                                                    .wheel-scroll__column
+                                                        p Wheel Width (in.)
+                                                        p Wheel Offset (mm)
+                                                        p RIMTUCK.com
+                                                    .wheel-scroll__item
+                                                        table
+                                                            tbody
+                                                                tr
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                    td 586
+                                                                tr
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                    td 205
+                                                                tr
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                                                    td F/R
+                                        .wheel-link
+                                            a(href="#") RIMTUCK!  ( F / R )
+                                            a(href="#") Will They Fit?
+                                    .wheel-item
+                                        .wheel-title
+                                            p About the Split Rim Offset Calculator
+                                        .wheel-img
+                                            img(src='img/disk.png')
+                                        .wheel-desc
+                                            p The split rim offset calculator allows you to calculate the new width and offset of your 3-piece (split rim) wheels when you change the inner barrel and/or outer lip.
+                                        .wheel-list
+                                            p Here are some examples that will automatically complete the calculator form to help you get started:
+                                            a(href="#") Adding a larger outer lip to an 8J et32 wheel.
+                                            a(href="#") Changing both inner and outer sections of a 10J et45 wheel.
+                                        .wheel-desc
+                                            p * Note that you do not have to fill in all the fields for the calculator to give you a result.
+                        .tab-content#tab-3
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, perspiciatis!
+            include componets/footer
+        include componets/scripts
